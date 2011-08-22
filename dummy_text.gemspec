@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "dummy_text"
   s.version     = DummyText::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = "http://rubygems.org/gems/dummy_text"
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["Matthias Frick"]
+  s.email       = ["matthias@frick-web.at"]
+  s.homepage    = "https://github.com/mattherick/dummy_text"
+  s.summary     = %q{Create easy a lorem ipsum dummy text}
+  s.description = %q{You can easy create dummy text with lorem ipsum content}
 
   s.rubyforge_project = "dummy_text"
 
