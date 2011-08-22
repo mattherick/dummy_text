@@ -4,20 +4,20 @@ DummyText is a little gem to generate lorem ipsum dummy text.
 
 === Install
 
-	gem install dummy_text
+  gem install dummy_text
 
 You can add it to your Gemfile:
 
-	gem "dummy_text"
+  gem "dummy_text"
 
 === How it Works
 
 DummyText offers a view helper:
 
-	<%= dummy_text "1c" %> # 1 character will be created
-	<%= dummy_text "2w" %> # 2 words will be created
-	<%= dummy_text "3s" %> # 3 sentences will be created
-	<%= dummy_text "4p" %> # 4 paragraphs will be created
+  <%= dummy_text "1c" %> # 1 character will be created
+  <%= dummy_text "2w" %> # 2 words will be created
+  <%= dummy_text "3s" %> # 3 sentences will be created
+  <%= dummy_text "4p" %> # 4 paragraphs will be created
 
 
 Copyright (c) 2010 Matthias Frick, released under the MIT license
