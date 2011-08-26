@@ -9,5 +9,3 @@ module DummyText
   end
 
 end
-
-
