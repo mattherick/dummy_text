@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["matthias@frick-web.at"]
   s.homepage    = "https://github.com/mattherick/dummy_text"
   s.summary     = %q{Create easy a lorem ipsum dummy text}
-  s.description = %q{You can easy create dummy text with lorem ipsum content}
+  s.description = %q{You can easy create dummy text with lorem ipsum content, you can generate your own template}
 
   s.rubyforge_project = "dummy_text"
   

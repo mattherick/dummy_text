@@ -1,6 +1,7 @@
 === DummyText
 
-DummyText is a little gem to generate lorem ipsum dummy text.
+DummyText is a little gem to generate lorem ipsum dummy text. 
+Further it is possible to generate your own text template.
 
 === Install
 
@@ -18,6 +19,15 @@ DummyText offers a view helper:
   <%= dummy_text "2w" %> # 2 words will be created
   <%= dummy_text "3s" %> # 3 sentences will be created
   <%= dummy_text "4p" %> # 4 paragraphs will be created
+  
+  === Create own Template
+  
+  It is possible to generate your own text template. Just run the generator:
+  
+    rails g dummy_text
+    
+  This will copy a text_template.txt in "config/dummy_text/text_template".
+  Now you can edit the template the way you like!
 
 
 Copyright (c) 2010 Matthias Frick, released under the MIT license
