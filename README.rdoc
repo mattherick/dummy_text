@@ -20,14 +20,14 @@ DummyText offers a view helper:
   <%= dummy_text "3s" %> # 3 sentences will be created
   <%= dummy_text "4p" %> # 4 paragraphs will be created
   
-  === Create own Template
+=== Create own Template
   
-  It is possible to generate your own text template. Just run the generator:
+It is possible to generate your own text template. Just run the generator:
   
-    rails g dummy_text
+  rails g dummy_text
     
-  This will copy a text_template.txt in "config/dummy_text/text_template".
-  Now you can edit the template the way you like!
+This will copy a text_template.txt in "config/dummy_text/text_template".
+Now you can edit the template the way you like!
 
 
-Copyright (c) 2010 Matthias Frick, released under the MIT license
+Copyright (c) 2011 Matthias Frick, released under the MIT license
