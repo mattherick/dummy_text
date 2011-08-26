@@ -13,6 +13,8 @@ Gem::Specification.new do |s|
   s.description = %q{You can easy create dummy text with lorem ipsum content}
 
   s.rubyforge_project = "dummy_text"
+  
+  s.add_development_dependency("rspec-rails", [">= 2.6.0"])
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
